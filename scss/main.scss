@@ -114,7 +114,7 @@ main {
   }
 
   .job {
-    background: lighte($primary-color, 5);
+    background: lighter($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
@@ -127,6 +127,8 @@ main {
   grid-template-columns: repeat(3, 1fr);
 
   img {
+    height: 300px;
+    width: 300px;
     widows: 100%;
     border: 3px #fff solid;
 

@@ -43,7 +43,7 @@
   top: 0;
   width: 100%;
   // optional opacity sees background image
-  opacity: 0.9;
+  opacity: 0.95;
   visibility: hidden;
 
   //once clicked, shows menu
@@ -92,8 +92,9 @@
 
     .portrait {
       width: 250px;
-      height: 250px;
-      background: url("../img/portrait.jpeg");
+      height: 300px;
+      background: url("../img/portrait.jpeg") no-repeat;
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
