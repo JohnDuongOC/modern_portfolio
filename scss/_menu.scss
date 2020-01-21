@@ -81,7 +81,8 @@
 
   //Branding Side
   &-branding {
-    background: $primary-color;
+    background: darken($primary-color, 5);
+    /* background: $primary-color; */
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -90,14 +91,14 @@
       transform: translate3d(0, 0, 0);
     }
 
-    .portrait {
+    /*     .portrait {
       width: 250px;
       height: 300px;
       background: url("../img/portrait.jpeg") no-repeat;
       background-size: cover;
       border-radius: 50%;
       border: solid 3px $secondary-color;
-    }
+    } */
   }
 
   .nav-item {
