@@ -29,13 +29,11 @@ h3 {
   // & = h1.lg-heading
   &.lg-heading {
     font-size: 6rem;
-    margin-bottom: 4rem;
   }
 
   &.sm-heading {
-    margin-bottom: 2rem;
-    padding: 0.2rem 2rem;
     color: white;
+    margin: 1rem 0rem 1rem 0.3rem;
     /* background: rgba(lighten($primary-color, 2), 0.5); */
   }
 }
@@ -61,7 +59,7 @@ main {
   min-height: calc(100vh - 60px);
 
   .icons {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 
     a {
       padding: 0.4rem;
