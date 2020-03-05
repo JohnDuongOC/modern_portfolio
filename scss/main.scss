@@ -185,7 +185,7 @@ main {
 
 .btn-light {
   @extend .btn;
-  background: lighten($primary-color, 50);
+  background: lighten($primary-color, 80);
   color: #333;
 }
 
